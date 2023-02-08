@@ -1,9 +1,44 @@
 ﻿@page "/"
+@inject IStringLocalizer<IndexRes> Localize
 
 <PageTitle>Index</PageTitle>
 
-<h1>Hello, world!</h1>
 
-Welcome to your new app.
+@*<ul>
+    @foreach (var lang in new string[] { "en" ,"es"})
+    {
+        <li><a href="#" onclick="(localStorage.setItem('lang','@lang'),window.location.reload())();">@lang</a></li>
+    }
+</ul>
 
-<SurveyPrompt Title="How is Blazor working for you?" />
+*@
+<div class="container-fluid p-0">
+    <!-- About-->
+    <section class="resume-section" id="inicio">
+        <div class="resume-section-content">
+            <h1 class="mb-0">
+                Héctor Solar Ruiz
+                <!-- <span class="text-primary">Solar Ruiz</span> -->
+            </h1>
+            <div class="subheading mb-5">
+                @Localize["subtituloProfesional"]
+
+                <a href="mailto:name@email.com">hectorsolar99@gmail.com</a>
+            </div>
+            <p class="lead mb-2">@Localize["subtituloPersonal"] </p>
+
+
+
+            <p class="mb-0">@Localize["descripcionPersonal1"]</p>
+            <p class="mb-5">@Localize["descripcionPersonal2"]</p>
+            <p class="mb-5">@Localize["descripcionPersonal3"]</p>
+
+
+            <div class="social-icons">
+                <a class="social-icon" href="https://www.linkedin.com/in/hesolar/"><i class="fab fa-linkedin-in"></i></a>
+                <a class="social-icon" href="https://github.com/hesolar"><i class="fab fa-github"></i></a>
+                <a class="social-icon" href="https://stackoverflow.com/users/16686166/hesolar?tab=profile"><i class="fab fa-stack-overflow"></i></a>
+            </div>
+        </div>
+    </section>
+</div>
