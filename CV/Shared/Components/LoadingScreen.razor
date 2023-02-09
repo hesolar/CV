@@ -1,9 +1,14 @@
-﻿@if (isLoaded)
+﻿@using Blazorise
+
+@if (isLoaded)
 {
     @ChildContent
 } else
 {
-    <div>Loading screen...</div>
+
+
+    <CV.Pages.About></CV.Pages.About>
+
 }
 
 @code {

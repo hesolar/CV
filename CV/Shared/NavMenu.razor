@@ -3,7 +3,6 @@
 
 
 
-
 <div class="top-row ps-3 navbar navbar-dark">
     <div class="container-fluid">
         <a class="navbar-brand" href="">CV</a>
@@ -16,7 +15,7 @@
 <div class="@NavMenuCssClass nav-scrollable" @onclick="ToggleNavMenu">
     <nav class="flex-column" style="align-content:center">
         <div class="nav-item px-3">
-        <img class="img-fluid img-profile rounded-circle mx-auto mb-2" id="profilePhoto" src="/imgs/profile.jpg" alt="..." />
+            <img class="img-fluid img-profile rounded-circle mx-auto mb-2" id="profilePhoto" src="/imgs/profile.jpg" alt="..." />
         </div>
     </nav>
     <nav class="flex-column">
@@ -58,7 +57,7 @@
 </div>
 
 @code {
-    private bool collapseNavMenu = true;
+    private bool collapseNavMenu = false;
 
     private string? NavMenuCssClass => collapseNavMenu ? "collapse" : null;
 

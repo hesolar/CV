@@ -1,0 +1,21 @@
+﻿@inject IStringLocalizer<PreloadingRes> Localize
+@page "/about"
+@page "/sobre"
+@using Blazorise
+
+
+<Badge Color="Color.Primary">@Localize["saludo"]</Badge>
+
+    <Jumbotron Background="Background.Light" Margin="Margin.Is4.FromBottom">
+
+        <JumbotronSubtitle>
+        @Localize["sabiasque"]
+        </JumbotronSubtitle>
+        <Divider></Divider>
+    <Paragraph>
+        @Localize["sabiasquedescripcion"]
+    </Paragraph>
+        <Paragraph>
+            @Localize["tecnologias"]
+        </Paragraph>
+    </Jumbotron>

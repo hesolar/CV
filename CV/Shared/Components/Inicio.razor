@@ -1,25 +1,15 @@
-﻿@page "/"
+﻿
+@page "/Inicio"
 @inject IStringLocalizer<IndexRes> Localize
 
-<PageTitle>Index</PageTitle>
-
-
-@*<ul>
-    @foreach (var lang in new string[] { "en" ,"es"})
-    {
-        <li><a href="#" onclick="(localStorage.setItem('lang','@lang'),window.location.reload())();">@lang</a></li>
-    }
-</ul>
-
-*@
 <div class="container-fluid p-0">
     <!-- About-->
     <section class="resume-section" id="inicio">
         <div class="resume-section-content">
-            <h1 class="mb-0">
-                Héctor Solar Ruiz
-                <!-- <span class="text-primary">Solar Ruiz</span> -->
-            </h1>
+            @*  <h1 class="mb-0">
+            Héctor Solar Ruiz
+            <!-- <span class="text-primary">Solar Ruiz</span> -->
+            </h1>*@
             <div class="subheading mb-5">
                 @Localize["subtituloProfesional"]
 

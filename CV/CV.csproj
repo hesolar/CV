@@ -7,6 +7,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Blazorise.Bootstrap" Version="1.2.0" />
+    <PackageReference Include="Blazorise.Icons.FontAwesome" Version="1.2.0" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="7.0.0" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="7.0.0" PrivateAssets="all" />
     <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="7.0.0" />
@@ -19,6 +21,11 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>IndexRes.resx</DependentUpon>
     </Compile>
+    <Compile Update="Shared\Resources\PreloadingRes.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>PreloadingRes.resx</DependentUpon>
+    </Compile>
   </ItemGroup>
 
   <ItemGroup>
@@ -28,6 +35,10 @@
     <EmbeddedResource Update="Shared\Resources\IndexRes.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>IndexRes.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Shared\Resources\PreloadingRes.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>PreloadingRes.Designer.cs</LastGenOutput>
     </EmbeddedResource>
   </ItemGroup>
 
