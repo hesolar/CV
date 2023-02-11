@@ -1,6 +1,6 @@
 name: CV
 env:
-  PUBLISH_DIR: CV/bin/Release/net7.0/browser-wasm/publish/wwwroot
+  PUBLISH_DIR: CV/CV/bin/Release/net7.0/browser-wasm/publish/wwwroot
 # Controls when the action will run
 on:
   push:
