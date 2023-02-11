@@ -1,0 +1,429 @@
+﻿@page "/"
+@using CV.Shared.Resources;
+@inject IStringLocalizer<CV.Shared.Resources.AllResourcesRes> AllResourcesResolver
+@inject IStringLocalizer<NavMenuRes> NavMenuResolver
+
+
+
+
+
+
+
+
+
+<body id="page-top">
+    <!-- Navigation-->
+
+   
+
+    @*todo cambiar idioma *@
+    <!-- Page Content-->
+  @*  <div class="box">
+        <select id="country_select" onchange="loadsLanguage(this.value);">
+        </select>
+    </div>*@
+
+
+    <div class="container-fluid p-0">
+        <!-- About-->
+        <section class="resume-section" id="inicio">
+            <div class="resume-section-content">
+                <h1 class="mb-0">
+                    Héctor Solar Ruiz
+                    <!-- <span class="text-primary">Solar Ruiz</span> -->
+                </h1>
+                <div class="subheading mb-5">
+                    @AllResourcesResolver["subtituloProfesional"]
+
+                    <a href="mailto:name@email.com">hectorsolar99@gmail.com</a>
+                </div>
+                <p class="lead mb-2"> <span class="lang-subtituloPersonal"></span> </p>
+
+                <p class="mb-0">@AllResourcesResolver["descripcionPersonal1"]</p>
+                <p class="mb-5">@AllResourcesResolver["descripcionPersonal2"]</p>
+                <p class="mb-5">@AllResourcesResolver["descripcionPersonal3"]</p>
+
+                <div class="social-icons">
+                    <a class="social-icon" href="https://www.linkedin.com/in/hesolar/"><i class="fab fa-linkedin-in"></i></a>
+                    <a class="social-icon" href="https://github.com/hesolar"><i class="fab fa-github"></i></a>
+                    <a class="social-icon" href="https://stackoverflow.com/users/16686166/hesolar?tab=profile"><i class="fab fa-stack-overflow"></i></a>
+                </div>
+            </div>
+        </section>
+        <hr class="m-0" />
+        <!-- aBOUT ME-->
+        <section class="resume-section" id="intereses">
+            <div class="resume-section-content">
+                <h2 class="mb-0">
+                    <span class="text-primary">@AllResourcesResolver["navbar_intereses"] </span>
+                </h2>
+                <p class="mb-0">@AllResourcesResolver["descripcionSobreMi1"]</p>
+                <p>
+                    @AllResourcesResolver["descripcionSobreMi2"]
+                </p>
+                <p class="mb-5">
+                    @AllResourcesResolver["descripcionSobreMi3"]
+                </p>
+
+
+
+
+
+
+
+
+
+				<div class="container">
+				  <!-- heading text -->
+				  <ul class="image-gallery" style="display: flex;  flex-wrap: wrap;">
+					<li class="liimagen">
+					  <img src="assets/img/personales/d.jpeg" width="200" height="250" class="imgGaleria"/>
+					</li>
+
+					<li class="liimagen">
+					  <img src="assets/img/personales/c.png" width="250" height="250" class="imgGaleria"/>
+					</li>
+					<li class="liimagen">
+					  <img src="assets/img/personales/a.jpeg" width="250" height="250" class="imgGaleria"/>
+					</li>
+					<li class="liimagen">
+					  <img src="assets/img/personales/b.png" width="250" height="250" class="imgGaleria"/>
+                      </li>
+				  </ul>
+				</div>
+		   </div>
+
+
+
+
+
+        </section>
+        <hr class="m-0" />
+        <!-- Experience-->
+        <section class="resume-section" id="experiencia">
+            <div class="resume-section-content">
+                <h2 class="mb-0">
+                    <span class="text-primary"> <span class="lang-navbar_experiencia"></span></span>
+                </h2>
+                <br>
+
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <img height="200" width="200" src="assets/img/logoHiberus.png" alt="Hiberus Tecnología">
+                    <div class="flex-grow-1">
+                        <h3 class="mb-0">@AllResourcesResolver["programadorWebJuniorHiberusTitulo"]</h3>
+
+
+                        <div class="subheading mb-3">@AllResourcesResolver["programadorWebJuniorHiberusSubTitulo"]</div>
+                        <p>
+                            @AllResourcesResolver["programadorWebJuniorHiberusDescripcion1"]
+                            <br>
+                            <li>
+                                @AllResourcesResolver["programadorWebJuniorHiberusDescripcion2"]
+                            </li>
+                            <li>
+                                @AllResourcesResolver["programadorWebJuniorHiberusDescripcion3"]
+                            </li>
+                        </p>
+                    </div>
+                    <div class="flex-shrink-0"><span class="text-primary">jun. 2022 -@AllResourcesResolver["actualidad"] · 5 @AllResourcesResolver["meses"]</span></div>
+
+                </div>
+
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <img height="200" width="200" src="assets/img/logoHiberus.png" alt="Hiberus Tecnología">
+                    <div class="flex-grow-1">
+                        <h3 class="mb-0"><span class="lang-contratoPracticasHiberus1Titulo"></span></h3>
+                        <div class="subheading mb-3"><span class="lang-contratoPracticasHiberus1Subitulo"></span></div>
+
+                            <span class="lang-contratoPracticasHiberus1Descripcion"></span>
+                    </div>
+                    <div class="flex-shrink-0"><span class="text-primary">dc 2011 - mar. 2013 · 4 <span class="lang-meses"></span></span></div>
+
+                </div>
+
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <img height="200" width="200" src="assets/img/logoGnoss.png" alt="Gnoss Tecnología">
+                    <div class="flex-grow-1">
+                        <h3 class="mb-0"><span class="lang-contratoPracticasGnossTitulo"></span></h3>
+                        <div class="subheading mb-3"><span class="lang-contratoPracticasGnossSubitulo"></span></div>
+                        <p><span class="lang-contratoPracticasGnossDescripcion"></span></p>
+                    </div>
+                    <div class="flex-shrink-0"><span class="text-primary">sept. 2021 - dc. 2021 · 4</span> <span class="lang-meses"> </span>
+
+                    </div>
+
+                </div>
+
+                <div class="d-flex flex-column flex-md-row justify-content-between">
+                    <img width="200" height="200" src="assets/img/logoHiberus.png" alt="Hiberus Tecnología">
+                    <div class="flex-grow-1">
+                        <h3 class="mb-0"><span class="lang-contratoPracticasHiberus21Titulo"></span></h3>
+                        <div class="subheading mb-3"><span class="lang-contratoPracticasHiberus2Subitulo"></span></div>
+                        <p><span class="lang-contratoPracticasHiberus2Descripcion"></span></p>
+                    </div>
+                    <div class="flex-shrink-0"><span class="text-primary">jul. 2021 - sept. 2021 · 3 <span class="lang-meses"></span></span></div>
+
+                </div>
+            </div>
+        </section>
+        <hr class="m-0" />
+        <!-- Education-->
+        <section class="resume-section" id="educacion">
+            <div class="resume-section-content">
+
+                <h2 class="mb-0">
+                    <span class="text-primary"> <span class="lang-navbar_educacion"></span></span>
+                </h2>
+
+
+
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <img width="200" height="200" src="assets/img/logoUniversidad.png" alt="Universidad de La Rioja">
+                    <div class="flex-grow-1">
+                        <h3 class="mb-0">Universidad de La Rioja</h3>
+                        <div class="subheading mb-3"><span class="lang-descripcionUniversidad"></span></div>
+                        <div></div>
+                    </div>
+                    <div class="flex-shrink-0"><span class="text-primary">Sep. 2017 - Jul. 2022</span></div>
+                </div>
+
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <img width="200" height="200" src="assets/img/logoInstituto.jfif" alt="IES Valle del OJA">
+                    <div class="flex-grow-1">
+                        <h3 class="mb-0">IES Valle del Oja</h3>
+                        <div class="subheading mb-3"><span class="lang-descripcionBachiller"></span></div>
+                        <div></div>
+                    </div>
+                    <div class="flex-shrink-0"><span class="text-primary">Sep. 2015 - Jul 2017</span></div>
+                </div>
+
+                <div class="d-flex flex-column flex-md-row justify-content-between">
+                    <img width="200" height="200" src="assets/img/logoConservatorio.png" alt="Conservatorio de Haro">
+                    <div class="flex-grow-1">
+                        <h3 class="mb-0">Conservatorio de Haro</h3>
+                        <div class="subheading mb-3"><span class="lang-descripcionConservatorio"></span></div>
+                        <p></p>
+                    </div>
+                    <div class="flex-shrink-0"><span class="text-primary">Aug. 2012 - May 2016</span></div>
+                </div>
+
+                <div class="d-flex flex-column flex-md-row justify-content-between">
+                    <img width="200" height="200" src="assets/img/logoInstituto.jfif" alt="IES Valle del OJA">
+                    <div class="flex-grow-1">
+                        <h3 class="mb-0">IES Valle del Oja</h3>
+                        <div class="subheading mb-3"><span class="lang-descripcionEso"></span>  </div>
+                        <p></p>
+                    </div>
+                    <div class="flex-shrink-0"><span class="text-primary">Sep. 2011 - Jul. 2015</span></div>
+                </div>
+
+
+
+            </div>
+        </section>
+        <hr class="m-0" />
+        <!-- Skills-->
+        <section class="resume-section" id="tecnologias">
+            <div class="resume-section-content">
+                <h2 class="mb-0">
+                    <span class="text-primary"> <span class="lang-navbar_tecnologias"></span></span>
+                </h2>
+
+
+
+                <br>
+                <div class="subheading mb-3"> <span class="lang-lenguagesProgramacion"></span>    </div>
+                <ul class="fa-ul mb-0">
+
+                    <li>
+                        <span class="fa-li"><i class="fas fa-check"></i></span>
+                        HTML, CSS, Javascript, C#, SQL
+                    </li>
+                </ul>
+
+                <ul class="list-inline dev-icons">
+
+                    <li class="list-inline-item"><img height="60" width="150" src="assets/icons/htmlcssjs.jfif" alt="HTML , CSS, JS"></li>
+                    <li class="list-inline-item"><img height="60" width="60" src="assets/icons/csharp.png" alt="c#"></li>
+                    <li class="list-inline-item"><img height="60" width="60" src="assets/icons/sql.png" alt="sql"></li>
+
+
+                </ul>
+
+                <br>
+                <div class="subheading mb-3">Frameworks</div>
+                <ul class="fa-ul mb-0">
+
+                    <li>
+                        <span class="fa-li"><i class="fas fa-check"></i></span>
+                        .NET Core, .NET Framework, Blazor, MVC, EF, Swagger
+                    </li>
+                </ul>
+
+                <ul class="list-inline dev-icons">
+                    <li class="list-inline-item"><img height="60" width="60" src="assets/icons/dotnet.png" alt="dotnet"></li>
+                    <li class="list-inline-item"><img height="60" width="120" src="assets/icons/dotnetframework.png" alt="dotnet"></li>
+
+                    <li class="list-inline-item"><img height="60" width="60" src="assets/icons/blazor.png" alt="blazor"></li>
+                    <li class="list-inline-item"><img height="60" width="60" src="assets/icons/mvc.jfif" alt="mvc"></li>
+
+                    <li class="list-inline-item"><img height="60" width="90" src="assets/icons/efcore.png" alt="efcore"></li>
+                    <li class="list-inline-item"><img height="60" width="90" src="assets/icons/swaggeropenapi.png" alt="GIT"></li>
+                </ul>
+
+                <br>
+                <div class="subheading mb-3"><span class="lang-svcs"></span></div>
+
+                <ul class="fa-ul mb-0">
+
+                    <li>
+                        <span class="fa-li"><i class="fas fa-check"></i></span>
+                        GIT, Github,Gitlab
+                    </li>
+                </ul>
+
+                <li class="list-inline-item"><img height="40" width="80" src="assets/icons/git.png" alt="GIT"></li>
+                <li class="list-inline-item"><img height="60" width="90" src="assets/icons/github.png" alt="github"></li>
+                <li class="list-inline-item"><img height="60" width="90" src="assets/icons/gitlab.png" alt="github"></li>
+
+                <br><br>
+                <div class="subheading mb-3">QA , CI , CD</div>
+                <ul class="fa-ul mb-0">
+
+                    <li>
+                        <span class="fa-li"><i class="fas fa-check"></i></span>
+                        Jenkins, Docker, SonarQube
+                    </li>
+                </ul>
+                <li class="list-inline-item"><img height="60" width="90" src="assets/icons/jenkins.jfif" alt="Jenkins"></li>
+                <li class="list-inline-item"><img height="60" width="90" src="assets/icons/docker.png" alt="docker"></li>
+                <li class="list-inline-item"><img height="60" width="90" src="assets/icons/sonarqube.png" alt="sonarqube"></li>
+
+                <br>
+                <br>
+                <div class="subheading mb-3">  <span class="lang-metodologias"></span>   </div>
+                <ul class="fa-ul mb-0">
+
+                    <li>
+                        <span class="fa-li"><i class="fas fa-check"></i></span>
+                        Agile, Scrum, DDD & Clean Architecture, SOLID
+                    </li>
+
+
+                </ul>
+            </div>
+        </section>
+        <hr class="m-0" />
+
+    </div>
+
+
+
+
+
+    <section class="resume-section" id="cursos">
+        <div class="resume-section-content">
+
+            <h2 class="mb-5">
+                <span class="text-primary"> <span class="lang-cursosCertificaciones"></span> </span>
+            </h2>
+
+			<div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                <img width="200" height="200" src="assets/icons/cursos/azurefundamentals.png" alt="Azure Fundamentals">
+                <div class="flex-grow-1">
+                    <h3 class="mb-0"><span class="lang-tituloaz900"></span></h3>
+                    <div class="subheading mb-3"><span class="lang-idCredencial"></span> 994243461</div>
+                    <div><a href="https://www.credly.com/badges/cd0b206f-92b1-4f31-a4a6-91d839f75b7c/linked_in?t=rn03ir><span class="lang-verificacionDocumentos"></a></div>
+                    <div><p> <span class="lang-az900"></span> </p></div>
+                </div>
+                <div class="flex-shrink-0"><span class="text-primary">dc. 2022</span></div>
+            </div>
+
+            <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                <img width="200" height="200" src="assets/icons/cursos/gobrioja.jfif" alt="Gobierno de la Rioja">
+                <div class="flex-grow-1">
+                    <h3 class="mb-0"><span class="lang-tituloCursoMaui"></span></h3>
+                    <div class="subheading mb-3"><span class="lang-idCredencial"></span> E5M024D62Y90BZT</div>
+                    <div><a href="https://www.larioja.org/oficina-electronica/es/verificacion-documentos-electronicos"><span class="lang-verificacionDocumentos"></span></a></div>
+                    <div><p> <span class="lang-descripcionCursoMaui"></span> </p></div>
+                </div>
+                <div class="flex-shrink-0"><span class="text-primary">oct. 2022</span></div>
+            </div>
+
+
+            <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                <img width="200" height="200" src="assets/icons/cursos/gobrioja.jfif" alt="Gobierno de la Rioja">
+                <div class="flex-grow-1">
+                    <h3 class="mb-0"><span class="lang-tituloCursoBlazor"></span></h3>
+                    <div class="subheading mb-3">
+                        <span class="lang-idCredencial"></span> Y83Q73BHZDJY9BF
+                    </div>
+                    <div>
+                        <a href="https://www.larioja.org/oficina-electronica/es/verificacion-documentos-electronicos">
+                            <span class="lang-verificacionDocumentos"></span>
+                        </a>
+                    </div>
+                    <div><p> <span class="lang-descripcionCursoBlazor"></span></p></div>
+                </div>
+                <div class="flex-shrink-0"><span class="text-primary">sept. 2022</span></div>
+            </div>
+
+            <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                <img width="200" height="200" src="assets/icons/cursos/gobrioja.jfif" alt="Gobierno de la Rioja">
+                <div class="flex-grow-1">
+                    <h3 class="mb-0"><span class="lang-tituloProgramacionNET"></span></h3>
+                    <div class="subheading mb-3"><span class="lang-idCredencial"></span> IYYS1J3Y8FGH5J5ID</div>
+                    <div><a href="https://www.larioja.org/oficina-electronica/es/verificacion-documentos-electronicos"><span class="lang-verificacionDocumentos"></span></a></div>
+                    <div><p><span class="lang-descripcionProgramacionNET"></span> </p></div>
+                </div>
+                <div class="flex-shrink-0"><span class="text-primary">Jul. 2022</span></div>
+            </div>
+            <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                <img width="200" height="200" src="assets/icons/cursos/googleactivate.png" alt="GoogleActivate">
+                <div class="flex-grow-1">
+                    <h3 class="mb-0">Cloud Computing</h3>
+                    <div class="subheading mb-3"><span class="lang-idCredencial"></span> NZQ DVY NBU</div>
+                    <div><a href="https://learndigital.withgoogle.com/link/1nur091p2ww"><span class="lang-verificacionCertificados"></span></a></div>
+                    <div><p> <span class="lang-descripcionCloudComputing"></span> </p></div>
+                </div>
+                <div class="flex-shrink-0"><span class="text-primary">oct. 2021</span></div>
+            </div>
+
+            <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                <img width="200" height="200" src="assets/icons/cursos/gobrioja.jfif" alt="Gobierno de la Rioja">
+                <div class="flex-grow-1">
+                    <h3 class="mb-0"><span class="lang-tituloContenedoresDocker"></span>r</h3>
+                    <div class="subheading mb-3"><span class="lang-idCredencial"></span> UXGJYIVF8J4JEZX</div>
+                    <div><a href="https://www.larioja.org/oficina-electronica/es/verificacion-documentos-electronicos"><span class="lang-verificacionDocumentos"></span></a></div>
+                    <div><p><span class="lang-descripcionContenedoresDocker"></span></p></div>
+                </div>
+                <div class="flex-shrink-0"><span class="text-primary">sept. 2021</span></div>
+            </div>
+
+            <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                <img width="200" height="200" src="assets/icons/cursos/googleactivate.png" alt="GoogleActivate">
+                <div class="flex-grow-1">
+                    <h3 class="mb-0"><span class="lang-tituloIntroduccionDesarrolloWeb"></span></h3>
+                    <div class="subheading mb-3"><span class="lang-idCredencial"></span> AAU 9KS DU9 & R3D SRM CTN</div>
+                    <div><a href="https://learndigital.withgoogle.com/link/1nur091p2ww"><span class="lang-verificacionCertificados"></span></a></div>
+                    <div><p><span class="lang-descripcionIntroduccionDesarrolloWeb"></span></p></div>
+                </div>
+                <div class="flex-shrink-0"><span class="text-primary">sept. 2021</span></div>
+            </div>
+
+
+
+
+
+        </div>
+    </section>
+    <hr class="m-0" />
+
+
+
+
+
+
+
+
+</body>
