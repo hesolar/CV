@@ -13,4 +13,4 @@ Check it out here!
 https://hesolar.github.io/CV/
 
 Credits go for : 
-https://github.com/SteveSandersonMS/BlazorOnGitHubPages
+https://github.com/SteveSandersonMS/BlazorOnGitHubPages 
