@@ -1,20 +1,23 @@
-name: CV
+name: PublishApp
 env:
-  PUBLISH_DIR: /CV/bin/Release/net7.0/browser-wasm/publish/wwwroot
+  PUBLISH_DIR: /CV/CV/bin/Release/net7.0/browser-wasm/publish/wwwroot
 # Controls when the action will run
 on:
   push:
     branches: [ main ]
 
 jobs:
+
   build:
+    
     runs-on: ubuntu-latest
     steps:
-    - working-directory: /CV
-    - uses: actions/checkout@v2
+
     - name: Publish app
-      run: dotnet publish -c Release
-     
+      run: echo "Valueeeeeeeeeeeeeeee"
+          echo  ${GITHUB_WORKSPACE}
+          dotnet publish -c Release
+        
     - name: Rewrite base href
       uses: SteveSandersonMS/ghaction-rewrite-base-href@v1
       with:
