@@ -11,10 +11,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-
+    - run: echo ${{ env.PUBLISH_DIR }}/index.html
     - name: Publish app
       run: dotnet publish -c Release
-
+     
     - name: Rewrite base href
       uses: SteveSandersonMS/ghaction-rewrite-base-href@v1
       with:
