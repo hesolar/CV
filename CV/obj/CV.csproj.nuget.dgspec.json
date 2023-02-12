@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Hector\\Source\\Repos\\hesolar\\CV\\BlazorApp-empty1\\CV.csproj": {}
+    "C:\\Users\\Hector\\source\\repos\\hesolar\\CV\\CV\\CV.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Hector\\Source\\Repos\\hesolar\\CV\\BlazorApp-empty1\\CV.csproj": {
+    "C:\\Users\\Hector\\source\\repos\\hesolar\\CV\\CV\\CV.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Hector\\Source\\Repos\\hesolar\\CV\\BlazorApp-empty1\\CV.csproj",
+        "projectUniqueName": "C:\\Users\\Hector\\source\\repos\\hesolar\\CV\\CV\\CV.csproj",
         "projectName": "CV",
-        "projectPath": "C:\\Users\\Hector\\Source\\Repos\\hesolar\\CV\\BlazorApp-empty1\\CV.csproj",
+        "projectPath": "C:\\Users\\Hector\\source\\repos\\hesolar\\CV\\CV\\CV.csproj",
         "packagesPath": "C:\\Users\\Hector\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Hector\\Source\\Repos\\hesolar\\CV\\BlazorApp-empty1\\obj\\",
+        "outputPath": "C:\\Users\\Hector\\source\\repos\\hesolar\\CV\\CV\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

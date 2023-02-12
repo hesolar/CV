@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "G0yUpBze7Ezk6T5dsUW18lYmK+N0H3FTVSmrDcyRpnnYmQqBL9rve+LUij41OolsYKc1rv9IKYr6wTb2ppdOvQ==",
+  "dgSpecHash": "ZLggLom7eF9o7zAPi0fUYye2WKYxBVZi6cMevIJNVNguXOKqG9Q6BPAKj7c4MYd4HY7yTR7yd3nGklFwhv03vQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Hector\\Source\\Repos\\hesolar\\CV\\BlazorApp-empty1\\CV.csproj",
+  "projectFilePath": "C:\\Users\\Hector\\source\\repos\\hesolar\\CV\\CV\\CV.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Hector\\.nuget\\packages\\microsoft.aspnetcore.authorization\\7.0.1\\microsoft.aspnetcore.authorization.7.0.1.nupkg.sha512",
     "C:\\Users\\Hector\\.nuget\\packages\\microsoft.aspnetcore.components\\7.0.1\\microsoft.aspnetcore.components.7.0.1.nupkg.sha512",
