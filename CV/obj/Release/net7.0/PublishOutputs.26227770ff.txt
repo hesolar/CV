@@ -1,0 +1,1 @@
+C:\Users\Hector\Source\Repos\hesolar\CV\BlazorApp-empty1\obj\Release\net7.0\browser-wasm\PubTmp\Out\web.config

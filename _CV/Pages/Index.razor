@@ -1,0 +1,25 @@
+﻿@page "/"
+@using Blazorise
+@inject IStringLocalizer<IndexRes> Localize
+
+@inject IStringLocalizer<NavMenuRes> LocalizeNavMenu
+<PageTitle>Index</PageTitle>
+
+
+
+
+
+<Carousel Autoplay=false Crossfade=true SelectedSlide=1 ShowControls=true ShowIndicators=true >
+    <CarouselSlide Name="1">
+        <CV.Shared.Components.Inicio />
+    </CarouselSlide>
+    <CarouselSlide Name="2">
+        <Experience/>
+    </CarouselSlide>
+    <CarouselSlide Name="3">
+        <Experience />
+    </CarouselSlide>
+    <CarouselSlide Name="4">
+        <Education />
+    </CarouselSlide>
+</Carousel>
