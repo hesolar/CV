@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33103.184
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CV_", "_CV\CV_.csproj", "{78D0F98D-D707-49CF-91B0-4F78619FED42}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{97BE41DE-A512-42B1-BF73-911861725EEE}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{A434BC1F-9A88-4D60-8EE4-2C64F4808420}"
@@ -20,10 +18,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{78D0F98D-D707-49CF-91B0-4F78619FED42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{78D0F98D-D707-49CF-91B0-4F78619FED42}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{78D0F98D-D707-49CF-91B0-4F78619FED42}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{78D0F98D-D707-49CF-91B0-4F78619FED42}.Release|Any CPU.Build.0 = Release|Any CPU
 		{A0E02189-527E-4FC0-A385-CC3B3AC33BF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{A0E02189-527E-4FC0-A385-CC3B3AC33BF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A0E02189-527E-4FC0-A385-CC3B3AC33BF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
