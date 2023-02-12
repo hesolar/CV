@@ -10,6 +10,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+    - working-directory: /CV
     - uses: actions/checkout@v2
     - name: Publish app
       run: dotnet publish -c Release
