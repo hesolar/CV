@@ -1,6 +1,6 @@
 name: CV
 env:
-  PUBLISH_DIR: CV/CV/bin/Release/net7.0/browser-wasm/publish/wwwroot
+  PUBLISH_DIR: bin/Release/net7.0/browser-wasm/publish/wwwroot
 # Controls when the action will run
 on:
   push:
@@ -11,15 +11,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-
     - name: Publish app
       run: dotnet publish -c Release
-
+     
     - name: Rewrite base href
       uses: SteveSandersonMS/ghaction-rewrite-base-href@v1
       with:
         html_path: ${{ env.PUBLISH_DIR }}/index.html
-        base_href: /CV/
+        base_href: /
 
     - name: GitHub Pages
       if: success()
