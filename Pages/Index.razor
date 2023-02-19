@@ -1,20 +1,12 @@
-﻿@page "/"
-@using CV.Shared.Resources;
-@inject IStringLocalizer<CV.Shared.Resources.AllResourcesRes> AllResourcesResolver
-@inject IStringLocalizer<NavMenuRes> NavMenuResolver
+﻿@using CV.Shared.Resources;
+@inject IStringLocalizer<AllResourcesRes> AllResourcesResolver
 
-
-
-
-
-
-
-
+@page "/"
 
 <body id="page-top">
     <!-- Navigation-->
 
-   
+
 
     @*todo cambiar idioma *@
     <!-- Page Content-->
@@ -26,84 +18,17 @@
 
     <div class="container-fluid p-0">
         <!-- About-->
-        <section class="resume-section" id="inicio">
-            <div class="resume-section-content">
-                <h1 class="mb-0">
-                    Héctor Solar Ruiz
-                    <!-- <span class="text-primary">Solar Ruiz</span> -->
-                </h1>
-                <div class="subheading mb-5">
-                    @AllResourcesResolver["subtituloProfesional"]
 
-                    <a href="mailto:name@email.com">hectorsolar99@gmail.com</a>
-                </div>
-                <p class="lead mb-2"> <span class="lang-subtituloPersonal"></span> </p>
+        <Inicio/>
 
-                <p class="mb-0">@AllResourcesResolver["descripcionPersonal1"]</p>
-                <p class="mb-5">@AllResourcesResolver["descripcionPersonal2"]</p>
-                <p class="mb-5">@AllResourcesResolver["descripcionPersonal3"]</p>
-
-                <div class="social-icons">
-                    <a class="social-icon" href="https://www.linkedin.com/in/hesolar/"><i class="fab fa-linkedin-in"></i></a>
-                    <a class="social-icon" href="https://github.com/hesolar"><i class="fab fa-github"></i></a>
-                    <a class="social-icon" href="https://stackoverflow.com/users/16686166/hesolar?tab=profile"><i class="fab fa-stack-overflow"></i></a>
-                </div>
-            </div>
-        </section>
         <hr class="m-0" />
-        <!-- aBOUT ME-->
-        <section class="resume-section" id="intereses">
-            <div class="resume-section-content">
-                <h2 class="mb-0">
-                    <span class="text-primary">@AllResourcesResolver["navbar_intereses"] </span>
-                </h2>
-                <p class="mb-0">@AllResourcesResolver["descripcionSobreMi1"]</p>
-                <p>
-                    @AllResourcesResolver["descripcionSobreMi2"]
-                </p>
-                <p class="mb-5">
-                    @AllResourcesResolver["descripcionSobreMi3"]
-                </p>
-
-
-
-
-
-
-
-
-
-				<div class="container">
-				  <!-- heading text -->
-				  <ul class="image-gallery" style="display: flex;  flex-wrap: wrap;">
-					<li class="liimagen">
-					  <img src="assets/img/personales/d.jpeg" width="200" height="250" class="imgGaleria"/>
-					</li>
-
-					<li class="liimagen">
-					  <img src="assets/img/personales/c.png" width="250" height="250" class="imgGaleria"/>
-					</li>
-					<li class="liimagen">
-					  <img src="assets/img/personales/a.jpeg" width="250" height="250" class="imgGaleria"/>
-					</li>
-					<li class="liimagen">
-					  <img src="assets/img/personales/b.png" width="250" height="250" class="imgGaleria"/>
-                      </li>
-				  </ul>
-				</div>
-		   </div>
-
-
-
-
-
-        </section>
+       <About/>
         <hr class="m-0" />
         <!-- Experience-->
         <section class="resume-section" id="experiencia">
             <div class="resume-section-content">
                 <h2 class="mb-0">
-                    <span class="text-primary"> <span class="lang-navbar_experiencia"></span></span>
+                    <span class="text-primary"> @AllResourcesResolver["navbar_experiencia"]</span>
                 </h2>
                 <br>
 
@@ -132,23 +57,23 @@
                 <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                     <img height="200" width="200" src="assets/img/logoHiberus.png" alt="Hiberus Tecnología">
                     <div class="flex-grow-1">
-                        <h3 class="mb-0"><span class="lang-contratoPracticasHiberus1Titulo"></span></h3>
-                        <div class="subheading mb-3"><span class="lang-contratoPracticasHiberus1Subitulo"></span></div>
+                        <h3 class="mb-0">@AllResourcesResolver["contratoPracticasHiberus1Titulo"]</h3>
+                        <div class="subheading mb-3"> @AllResourcesResolver["contratoPracticasHiberus1Subitulo"]</div>
 
-                            <span class="lang-contratoPracticasHiberus1Descripcion"></span>
+                            @AllResourcesResolver["contratoPracticasHiberus1Descripcion"]
                     </div>
-                    <div class="flex-shrink-0"><span class="text-primary">dc 2011 - mar. 2013 · 4 <span class="lang-meses"></span></span></div>
+                    <div class="flex-shrink-0"><span class="text-primary">dc 2011 - mar. 2013 · 4 @AllResourcesResolver["meses"]</span></div>
 
                 </div>
 
                 <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                     <img height="200" width="200" src="assets/img/logoGnoss.png" alt="Gnoss Tecnología">
                     <div class="flex-grow-1">
-                        <h3 class="mb-0"><span class="lang-contratoPracticasGnossTitulo"></span></h3>
-                        <div class="subheading mb-3"><span class="lang-contratoPracticasGnossSubitulo"></span></div>
-                        <p><span class="lang-contratoPracticasGnossDescripcion"></span></p>
+                        <h3 class="mb-0">@AllResourcesResolver["contratoPracticasGnossTitulo"]</h3>
+                        <div class="subheading mb-3">@AllResourcesResolver["contratoPracticasGnossSubitulo"]</div>
+                        <p>@AllResourcesResolver["contratoPracticasGnossDescripcion"]</p>
                     </div>
-                    <div class="flex-shrink-0"><span class="text-primary">sept. 2021 - dc. 2021 · 4</span> <span class="lang-meses"> </span>
+                    <div class="flex-shrink-0"><span class="text-primary">sept. 2021 - dc. 2021 · 4</span> @AllResourcesResolver["meses"]
 
                     </div>
 
@@ -157,11 +82,11 @@
                 <div class="d-flex flex-column flex-md-row justify-content-between">
                     <img width="200" height="200" src="assets/img/logoHiberus.png" alt="Hiberus Tecnología">
                     <div class="flex-grow-1">
-                        <h3 class="mb-0"><span class="lang-contratoPracticasHiberus21Titulo"></span></h3>
-                        <div class="subheading mb-3"><span class="lang-contratoPracticasHiberus2Subitulo"></span></div>
-                        <p><span class="lang-contratoPracticasHiberus2Descripcion"></span></p>
+                        <h3 class="mb-0">@AllResourcesResolver["contratoPracticasHiberus21Titulo"]</h3>
+                        <div class="subheading mb-3">@AllResourcesResolver["contratoPracticasHiberus2Subitulo"]</div>
+                        <p>@AllResourcesResolver["contratoPracticasHiberus2Descripcion"]</p>
                     </div>
-                    <div class="flex-shrink-0"><span class="text-primary">jul. 2021 - sept. 2021 · 3 <span class="lang-meses"></span></span></div>
+                    <div class="flex-shrink-0"><span class="text-primary">jul. 2021 - sept. 2021 · 3 @AllResourcesResolver["meses"]</span></div>
 
                 </div>
             </div>
@@ -172,7 +97,7 @@
             <div class="resume-section-content">
 
                 <h2 class="mb-0">
-                    <span class="text-primary"> <span class="lang-navbar_educacion"></span></span>
+                    <span class="text-primary"> @AllResourcesResolver["navbar_educacion"]</span>
                 </h2>
 
 
@@ -181,7 +106,7 @@
                     <img width="200" height="200" src="assets/img/logoUniversidad.png" alt="Universidad de La Rioja">
                     <div class="flex-grow-1">
                         <h3 class="mb-0">Universidad de La Rioja</h3>
-                        <div class="subheading mb-3"><span class="lang-descripcionUniversidad"></span></div>
+                        <div class="subheading mb-3">@AllResourcesResolver["descripcionUniversidad"]</div>
                         <div></div>
                     </div>
                     <div class="flex-shrink-0"><span class="text-primary">Sep. 2017 - Jul. 2022</span></div>
@@ -191,7 +116,7 @@
                     <img width="200" height="200" src="assets/img/logoInstituto.jfif" alt="IES Valle del OJA">
                     <div class="flex-grow-1">
                         <h3 class="mb-0">IES Valle del Oja</h3>
-                        <div class="subheading mb-3"><span class="lang-descripcionBachiller"></span></div>
+                        <div class="subheading mb-3">@AllResourcesResolver["descripcionBachiller"]</div>
                         <div></div>
                     </div>
                     <div class="flex-shrink-0"><span class="text-primary">Sep. 2015 - Jul 2017</span></div>
@@ -201,7 +126,7 @@
                     <img width="200" height="200" src="assets/img/logoConservatorio.png" alt="Conservatorio de Haro">
                     <div class="flex-grow-1">
                         <h3 class="mb-0">Conservatorio de Haro</h3>
-                        <div class="subheading mb-3"><span class="lang-descripcionConservatorio"></span></div>
+                        <div class="subheading mb-3">@AllResourcesResolver["descripcionConservatorio"]</div>
                         <p></p>
                     </div>
                     <div class="flex-shrink-0"><span class="text-primary">Aug. 2012 - May 2016</span></div>
@@ -211,7 +136,7 @@
                     <img width="200" height="200" src="assets/img/logoInstituto.jfif" alt="IES Valle del OJA">
                     <div class="flex-grow-1">
                         <h3 class="mb-0">IES Valle del Oja</h3>
-                        <div class="subheading mb-3"><span class="lang-descripcionEso"></span>  </div>
+                        <div class="subheading mb-3">@AllResourcesResolver["descripcionEso"]  </div>
                         <p></p>
                     </div>
                     <div class="flex-shrink-0"><span class="text-primary">Sep. 2011 - Jul. 2015</span></div>
@@ -226,13 +151,13 @@
         <section class="resume-section" id="tecnologias">
             <div class="resume-section-content">
                 <h2 class="mb-0">
-                    <span class="text-primary"> <span class="lang-navbar_tecnologias"></span></span>
+                    <span class="text-primary"> @AllResourcesResolver["navbar_tecnologias"]</span>
                 </h2>
 
 
 
                 <br>
-                <div class="subheading mb-3"> <span class="lang-lenguagesProgramacion"></span>    </div>
+                <div class="subheading mb-3"> @AllResourcesResolver["lenguagesProgramacion"]    </div>
                 <ul class="fa-ul mb-0">
 
                     <li>
@@ -272,7 +197,7 @@
                 </ul>
 
                 <br>
-                <div class="subheading mb-3"><span class="lang-svcs"></span></div>
+                <div class="subheading mb-3">@AllResourcesResolver["svcs"]</div>
 
                 <ul class="fa-ul mb-0">
 
@@ -301,7 +226,7 @@
 
                 <br>
                 <br>
-                <div class="subheading mb-3">  <span class="lang-metodologias"></span>   </div>
+                <div class="subheading mb-3">  @AllResourcesResolver["metodologias"]</div>
                 <ul class="fa-ul mb-0">
 
                     <li>
@@ -325,16 +250,16 @@
         <div class="resume-section-content">
 
             <h2 class="mb-5">
-                <span class="text-primary"> <span class="lang-cursosCertificaciones"></span> </span>
+                <span class="text-primary"> @AllResourcesResolver["cursosCertificaciones"] </span>
             </h2>
 
 			<div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                 <img width="200" height="200" src="assets/icons/cursos/azurefundamentals.png" alt="Azure Fundamentals">
                 <div class="flex-grow-1">
-                    <h3 class="mb-0"><span class="lang-tituloaz900"></span></h3>
-                    <div class="subheading mb-3"><span class="lang-idCredencial"></span> 994243461</div>
-                    <div><a href="https://www.credly.com/badges/cd0b206f-92b1-4f31-a4a6-91d839f75b7c/linked_in?t=rn03ir><span class="lang-verificacionDocumentos"></a></div>
-                    <div><p> <span class="lang-az900"></span> </p></div>
+                    <h3 class="mb-0">@AllResourcesResolver["tituloaz900"]</h3>
+                    <div class="subheading mb-3">@AllResourcesResolver["idCredencial"] 994243461</div>
+                    <div><a href="https://www.credly.com/badges/cd0b206f-92b1-4f31-a4a6-91d839f75b7c/linked_in?t=rn03ir">@AllResourcesResolver["verificacionDocumentos"]</a></div>
+                    <div><p> @AllResourcesResolver["az900"] </p></div>
                 </div>
                 <div class="flex-shrink-0"><span class="text-primary">dc. 2022</span></div>
             </div>
@@ -342,10 +267,10 @@
             <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                 <img width="200" height="200" src="assets/icons/cursos/gobrioja.jfif" alt="Gobierno de la Rioja">
                 <div class="flex-grow-1">
-                    <h3 class="mb-0"><span class="lang-tituloCursoMaui"></span></h3>
-                    <div class="subheading mb-3"><span class="lang-idCredencial"></span> E5M024D62Y90BZT</div>
-                    <div><a href="https://www.larioja.org/oficina-electronica/es/verificacion-documentos-electronicos"><span class="lang-verificacionDocumentos"></span></a></div>
-                    <div><p> <span class="lang-descripcionCursoMaui"></span> </p></div>
+                    <h3 class="mb-0">@AllResourcesResolver["tituloCursoMaui"]</h3>
+                    <div class="subheading mb-3">@AllResourcesResolver["idCredencial"] E5M024D62Y90BZT</div>
+                    <div><a href="https://www.larioja.org/oficina-electronica/es/verificacion-documentos-electronicos">@AllResourcesResolver["verificacionDocumentos"]</a></div>
+                    <div><p> @AllResourcesResolver["descripcionCursoMaui"] </p></div>
                 </div>
                 <div class="flex-shrink-0"><span class="text-primary">oct. 2022</span></div>
             </div>
@@ -354,16 +279,16 @@
             <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                 <img width="200" height="200" src="assets/icons/cursos/gobrioja.jfif" alt="Gobierno de la Rioja">
                 <div class="flex-grow-1">
-                    <h3 class="mb-0"><span class="lang-tituloCursoBlazor"></span></h3>
+                    <h3 class="mb-0">@AllResourcesResolver["tituloCursoBlazor"]</h3>
                     <div class="subheading mb-3">
-                        <span class="lang-idCredencial"></span> Y83Q73BHZDJY9BF
+                        @AllResourcesResolver["idCredencial"] Y83Q73BHZDJY9BF
                     </div>
                     <div>
                         <a href="https://www.larioja.org/oficina-electronica/es/verificacion-documentos-electronicos">
-                            <span class="lang-verificacionDocumentos"></span>
+                            @AllResourcesResolver["verificacionDocumentos"]
                         </a>
                     </div>
-                    <div><p> <span class="lang-descripcionCursoBlazor"></span></p></div>
+                    <div><p> @AllResourcesResolver["descripcionCursoBlazor"]</p></div>
                 </div>
                 <div class="flex-shrink-0"><span class="text-primary">sept. 2022</span></div>
             </div>
@@ -371,10 +296,10 @@
             <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                 <img width="200" height="200" src="assets/icons/cursos/gobrioja.jfif" alt="Gobierno de la Rioja">
                 <div class="flex-grow-1">
-                    <h3 class="mb-0"><span class="lang-tituloProgramacionNET"></span></h3>
-                    <div class="subheading mb-3"><span class="lang-idCredencial"></span> IYYS1J3Y8FGH5J5ID</div>
-                    <div><a href="https://www.larioja.org/oficina-electronica/es/verificacion-documentos-electronicos"><span class="lang-verificacionDocumentos"></span></a></div>
-                    <div><p><span class="lang-descripcionProgramacionNET"></span> </p></div>
+                    <h3 class="mb-0">@AllResourcesResolver["tituloProgramacionNET"]</h3>
+                    <div class="subheading mb-3">@AllResourcesResolver["idCredencial"] IYYS1J3Y8FGH5J5ID</div>
+                    <div><a href="https://www.larioja.org/oficina-electronica/es/verificacion-documentos-electronicos">@AllResourcesResolver["verificacionDocumentos"]</a></div>
+                    <div><p>@AllResourcesResolver["descripcionProgramacionNET"] </p></div>
                 </div>
                 <div class="flex-shrink-0"><span class="text-primary">Jul. 2022</span></div>
             </div>
@@ -382,9 +307,9 @@
                 <img width="200" height="200" src="assets/icons/cursos/googleactivate.png" alt="GoogleActivate">
                 <div class="flex-grow-1">
                     <h3 class="mb-0">Cloud Computing</h3>
-                    <div class="subheading mb-3"><span class="lang-idCredencial"></span> NZQ DVY NBU</div>
-                    <div><a href="https://learndigital.withgoogle.com/link/1nur091p2ww"><span class="lang-verificacionCertificados"></span></a></div>
-                    <div><p> <span class="lang-descripcionCloudComputing"></span> </p></div>
+                    <div class="subheading mb-3">@AllResourcesResolver["idCredencial"] NZQ DVY NBU</div>
+                    <div><a href="https://learndigital.withgoogle.com/link/1nur091p2ww">@AllResourcesResolver["verificacionCertificados"]</a></div>
+                    <div><p> @AllResourcesResolver["descripcionCloudComputing"] </p></div>
                 </div>
                 <div class="flex-shrink-0"><span class="text-primary">oct. 2021</span></div>
             </div>
@@ -392,10 +317,10 @@
             <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                 <img width="200" height="200" src="assets/icons/cursos/gobrioja.jfif" alt="Gobierno de la Rioja">
                 <div class="flex-grow-1">
-                    <h3 class="mb-0"><span class="lang-tituloContenedoresDocker"></span>r</h3>
-                    <div class="subheading mb-3"><span class="lang-idCredencial"></span> UXGJYIVF8J4JEZX</div>
-                    <div><a href="https://www.larioja.org/oficina-electronica/es/verificacion-documentos-electronicos"><span class="lang-verificacionDocumentos"></span></a></div>
-                    <div><p><span class="lang-descripcionContenedoresDocker"></span></p></div>
+                    <h3 class="mb-0">@AllResourcesResolver["tituloContenedoresDocker"]r</h3>
+                    <div class="subheading mb-3">@AllResourcesResolver["idCredencial"] UXGJYIVF8J4JEZX</div>
+                    <div><a href="https://www.larioja.org/oficina-electronica/es/verificacion-documentos-electronicos">@AllResourcesResolver["verificacionDocumentos"]</a></div>
+                    <div><p>@AllResourcesResolver["descripcionContenedoresDocker"]</p></div>
                 </div>
                 <div class="flex-shrink-0"><span class="text-primary">sept. 2021</span></div>
             </div>
@@ -403,10 +328,10 @@
             <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                 <img width="200" height="200" src="assets/icons/cursos/googleactivate.png" alt="GoogleActivate">
                 <div class="flex-grow-1">
-                    <h3 class="mb-0"><span class="lang-tituloIntroduccionDesarrolloWeb"></span></h3>
-                    <div class="subheading mb-3"><span class="lang-idCredencial"></span> AAU 9KS DU9 & R3D SRM CTN</div>
-                    <div><a href="https://learndigital.withgoogle.com/link/1nur091p2ww"><span class="lang-verificacionCertificados"></span></a></div>
-                    <div><p><span class="lang-descripcionIntroduccionDesarrolloWeb"></span></p></div>
+                    <h3 class="mb-0">@AllResourcesResolver["tituloIntroduccionDesarrolloWeb"]</h3>
+                    <div class="subheading mb-3">@AllResourcesResolver["idCredencial"] AAU 9KS DU9 & R3D SRM CTN</div>
+                    <div><a href="https://learndigital.withgoogle.com/link/1nur091p2ww">@AllResourcesResolver["verificacionCertificados"]</a></div>
+                    <div><p>@AllResourcesResolver["descripcionIntroduccionDesarrolloWeb"]</p></div>
                 </div>
                 <div class="flex-shrink-0"><span class="text-primary">sept. 2021</span></div>
             </div>

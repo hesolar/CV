@@ -367,7 +367,7 @@ namespace CV.Shared.Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a SOBRE MI.
+        ///   Busca una cadena traducida similar a SOBREMI.
         /// </summary>
         public static string navbar_intereses {
             get {

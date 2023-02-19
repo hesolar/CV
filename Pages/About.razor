@@ -1,0 +1,40 @@
+﻿@page "/ABOUTME"
+@page "/SOBREMI"
+
+@using CV.Shared.Resources;
+@inject IStringLocalizer<AllResourcesRes> AllResourcesResolver
+
+<section class="resume-section" id="intereses">
+    <div class="resume-section-content">
+        <h2 class="mb-0">
+            <span class="text-primary">@AllResourcesResolver["navbar_intereses"] </span>
+        </h2>
+        <p class="mb-0">@AllResourcesResolver["descripcionSobreMi1"]</p>
+        <p>
+            @AllResourcesResolver["descripcionSobreMi2"]
+        </p>
+        <p class="mb-5">
+            @AllResourcesResolver["descripcionSobreMi3"]
+        </p>
+
+        <div class="container">
+            <!-- heading text -->
+            <ul class="image-gallery" style="display: flex;  flex-wrap: wrap;">
+                <li class="liimagen">
+                    <img src="assets/img/personales/d.jpeg" width="200" height="250" class="imgGaleria" />
+                </li>
+
+                <li class="liimagen">
+                    <img src="assets/img/personales/c.png" width="250" height="250" class="imgGaleria" />
+                </li>
+                <li class="liimagen">
+                    <img src="assets/img/personales/a.jpeg" width="250" height="250" class="imgGaleria" />
+                </li>
+                <li class="liimagen">
+                    <img src="assets/img/personales/b.png" width="250" height="250" class="imgGaleria" />
+                </li>
+            </ul>
+        </div>
+    </div>
+
+</section>
