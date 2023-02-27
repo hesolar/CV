@@ -1,7 +1,8 @@
 name: PublishApp
 env:
-  PUBLISH_DIR: /CV/CV/bin/Release/net7.0/browser-wasm/publish/wwwroot
-# Controls when the action will run
+  PUBLISH_DIR: bin/Release/net7.0/publish/wwwroot
+  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+# Controls when the action will run 
 on:
   push:
     branches: [ main ]
@@ -12,23 +13,34 @@ jobs:
     
     runs-on: ubuntu-latest
     steps:
+    - uses: actions/checkout@v2
+    
+    #- name: abcd
+      #run: |
+        #pwd
+        #ls -S
 
     - name: Publish app
-      run: echo "Valueeeeeeeeeeeeeeee"
-          echo  ${GITHUB_WORKSPACE}
-          dotnet publish -c Release
-        
-    - name: Rewrite base href
+      run: dotnet publish -c Release
+       
+    - name: Rewrite base href 
       uses: SteveSandersonMS/ghaction-rewrite-base-href@v1
       with:
         html_path: ${{ env.PUBLISH_DIR }}/index.html
         base_href: /CV/
-
+    #- name: Print Directories Tree
+      #run: |
+        #ls -S
+    
     - name: GitHub Pages
+
+    
       if: success()
+      
+      
       uses: crazy-max/ghaction-github-pages@v1.5.1
       with:
         target_branch: gh-pages
         build_dir: ${{ env.PUBLISH_DIR }}
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_TOKEN: ${{ env.GITHUB_TOKEN }}

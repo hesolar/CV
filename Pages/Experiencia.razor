@@ -1,0 +1,75 @@
+﻿
+@page "/Experiencia"
+@page "/Experience"
+@using CV.Shared.Resources;
+@inject IStringLocalizer<AllResourcesRes> AllResourcesResolver
+
+<!-- Experience-->
+<section class="resume-section" id="experiencia">
+    <div class="resume-section-content">
+        <h2 class="mb-0">
+            <span class="text-primary"> @AllResourcesResolver["navbar_experiencia"]</span>
+        </h2>
+        <br>
+
+        <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+            <img height="200" width="200" src="assets/img/logoHiberus.png" alt="Hiberus Tecnología">
+            <div class="flex-grow-1">
+                <h3 class="mb-0">@AllResourcesResolver["programadorWebJuniorHiberusTitulo"]</h3>
+
+
+                <div class="subheading mb-3">@AllResourcesResolver["programadorWebJuniorHiberusSubTitulo"]</div>
+                <p>
+                    @AllResourcesResolver["programadorWebJuniorHiberusDescripcion1"]
+                    <br>
+                    <li>
+                        @AllResourcesResolver["programadorWebJuniorHiberusDescripcion2"]
+                    </li>
+                    <li>
+                        @AllResourcesResolver["programadorWebJuniorHiberusDescripcion3"]
+                    </li>
+                </p>
+            </div>
+            <div class="flex-shrink-0"><span class="text-primary">jun. 2022 -@AllResourcesResolver["actualidad"] · 5 @AllResourcesResolver["meses"]</span></div>
+
+        </div>
+
+        <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+            <img height="200" width="200" src="assets/img/logoHiberus.png" alt="Hiberus Tecnología">
+            <div class="flex-grow-1">
+                <h3 class="mb-0">@AllResourcesResolver["contratoPracticasHiberus1Titulo"]</h3>
+                <div class="subheading mb-3"> @AllResourcesResolver["contratoPracticasHiberus1Subitulo"]</div>
+
+                @AllResourcesResolver["contratoPracticasHiberus1Descripcion"]
+            </div>
+            <div class="flex-shrink-0"><span class="text-primary">dc 2011 - mar. 2013 · 4 @AllResourcesResolver["meses"]</span></div>
+
+        </div>
+
+        <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+            <img height="200" width="200" src="assets/img/logoGnoss.png" alt="Gnoss Tecnología">
+            <div class="flex-grow-1">
+                <h3 class="mb-0">@AllResourcesResolver["contratoPracticasGnossTitulo"]</h3>
+                <div class="subheading mb-3">@AllResourcesResolver["contratoPracticasGnossSubitulo"]</div>
+                <p>@AllResourcesResolver["contratoPracticasGnossDescripcion"]</p>
+            </div>
+            <div class="flex-shrink-0">
+                <span class="text-primary">sept. 2021 - dc. 2021 · 4</span> @AllResourcesResolver["meses"]
+
+            </div>
+
+        </div>
+
+        <div class="d-flex flex-column flex-md-row justify-content-between">
+            <img width="200" height="200" src="assets/img/logoHiberus.png" alt="Hiberus Tecnología">
+            <div class="flex-grow-1">
+                <h3 class="mb-0">@AllResourcesResolver["contratoPracticasHiberus21Titulo"]</h3>
+                <div class="subheading mb-3">@AllResourcesResolver["contratoPracticasHiberus2Subitulo"]</div>
+                <p>@AllResourcesResolver["contratoPracticasHiberus2Descripcion"]</p>
+            </div>
+            <div class="flex-shrink-0"><span class="text-primary">jul. 2021 - sept. 2021 · 3 @AllResourcesResolver["meses"]</span></div>
+
+        </div>
+    </div>
+</section>
+<hr class="m-0" />

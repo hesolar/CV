@@ -331,7 +331,7 @@ namespace CV.Shared.Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a CURSOS.
+        ///   Busca una cadena traducida similar a Cursos.
         /// </summary>
         public static string navbar_cursos {
             get {
@@ -340,7 +340,7 @@ namespace CV.Shared.Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a EDUCACIÓN.
+        ///   Busca una cadena traducida similar a Educacion.
         /// </summary>
         public static string navbar_educacion {
             get {
@@ -349,7 +349,7 @@ namespace CV.Shared.Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a EXPERIENCIA.
+        ///   Busca una cadena traducida similar a Experiencia.
         /// </summary>
         public static string navbar_experiencia {
             get {
@@ -358,7 +358,7 @@ namespace CV.Shared.Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a INICIO.
+        ///   Busca una cadena traducida similar a Inicio.
         /// </summary>
         public static string navbar_inicio {
             get {
@@ -367,7 +367,7 @@ namespace CV.Shared.Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a SOBREMI.
+        ///   Busca una cadena traducida similar a SobreMi.
         /// </summary>
         public static string navbar_intereses {
             get {
@@ -376,7 +376,7 @@ namespace CV.Shared.Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a TECNOLOGÍAS.
+        ///   Busca una cadena traducida similar a Tecnologías.
         /// </summary>
         public static string navbar_tecnologias {
             get {

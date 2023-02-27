@@ -208,22 +208,22 @@
     <value>Metodologías y principios</value>
   </data>
   <data name="navbar_cursos" xml:space="preserve">
-    <value>CURSOS</value>
+    <value>Cursos</value>
   </data>
   <data name="navbar_educacion" xml:space="preserve">
-    <value>EDUCACIÓN</value>
+    <value>Educacion</value>
   </data>
   <data name="navbar_experiencia" xml:space="preserve">
-    <value>EXPERIENCIA</value>
+    <value>Experiencia</value>
   </data>
   <data name="navbar_inicio" xml:space="preserve">
-    <value>INICIO</value>
+    <value>Inicio</value>
   </data>
   <data name="navbar_intereses" xml:space="preserve">
-    <value>SOBREMI</value>
+    <value>SobreMi</value>
   </data>
   <data name="navbar_tecnologias" xml:space="preserve">
-    <value>TECNOLOGÍAS</value>
+    <value>Tecnologías</value>
   </data>
   <data name="programadorWebJuniorHiberusDescripcion1" xml:space="preserve">
     <value>Mi trabajo en gobierno de Navarra se puede dividir en dos áreas: GAD y Vivienda.</value>
