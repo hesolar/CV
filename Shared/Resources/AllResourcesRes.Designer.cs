@@ -358,7 +358,7 @@ namespace CV.Shared.Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a CV/Inicio.
+        ///   Busca una cadena traducida similar a Inicio.
         /// </summary>
         public static string navbar_inicio {
             get {
