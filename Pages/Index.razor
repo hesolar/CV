@@ -1,7 +1,7 @@
 ﻿@using CV.Shared.Resources;
 @inject IStringLocalizer<AllResourcesRes> AllResourcesResolver
 
-@page "/CV"
+@page "/"
 
 
 <RadzenTabs RenderMode="TabRenderMode.Client">
@@ -44,7 +44,7 @@
 </RadzenTabs>
 
 
-/*
+@*/*
 <Carousel @bind-SelectedSlide=@selectedSlide Autoplay=false>
     <CarouselSlide Name="1">
         <Inicio />
@@ -58,7 +58,7 @@
         <Experiencia />
 
     </CarouselSlide>
-</Carousel> */
+</Carousel> */*@
 @code {
     private string selectedSlide = "1";
 }

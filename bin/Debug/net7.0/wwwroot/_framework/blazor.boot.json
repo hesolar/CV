@@ -206,13 +206,13 @@
       "mscorlib.dll": "sha256-UH9jptJH1wZ3XMBPuMMAEaUKpfRxc5AgXkLdAFAvNVE=",
       "netstandard.dll": "sha256-+jUzj0FB0YcoBUeSkSNEjhVDTG08qbZ2twfCBMbzT+Q=",
       "System.Private.CoreLib.dll": "sha256-l+\/quNqfNCSUDSMJcp0+IxlSdOdnAtwVVWMXmYGHMpg=",
-      "CV.dll": "sha256-aHmpsSPXy3R2baJa381N8mdmhNtViINfAYxHfum+ti4="
+      "CV.dll": "sha256-+O6BhsN+hbbntBmdsYklCRJ0ZYFfPEZBS6gkfNB17XM="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
-      "CV.pdb": "sha256-UWLgOAMLuwnKb8dk1zxYxUN4bF86H70QhDcZjFmRDRg="
+      "CV.pdb": "sha256-gN6R\/3Ps3yIzww8Mr8\/2mJAwMc1alCXjwc48Bje6fzw="
     },
     "runtime": {
       "dotnet.7.0.1.15ljuzb622.js": "sha256-jjax3FMRXzFAziWowdtJf6vipP2xXAaA5gD6VBYB6Y0=",
@@ -231,7 +231,7 @@
     },
     "satelliteResources": {
       "en": {
-        "en\/CV.resources.dll": "sha256-NGok5JSbpn8\/pvEBcT9mnHB1bFKkrgynkDHmrCDyjxc="
+        "en\/CV.resources.dll": "sha256-oQODu4yHq5u5kb9Uy6Sq9\/3hkpZuNFWEG5L4zDEqZVE="
       }
     }
   }

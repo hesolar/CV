@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Fs9WSLjqY5ALJNQrgfzbCEfwAzaZEZQN3rgXSy5/N1hsqF7QIjQ+UL+kgbQ3rym9fWZiYpVIUnuhxjJe21AD1Q==",
+  "dgSpecHash": "W7Z9N7MMTyi+c7tXyp3GPhp+d9fUsDtSXq3JBeGoK7ER4kByVOIGNDbj7lQ8KzU1wdGITlkEM7B1+u2lvZSApA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Hector\\source\\repos\\Nueva carpeta\\CV\\CV.csproj",
+  "projectFilePath": "C:\\Users\\Hector\\Source\\Repos\\CV\\CV.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Hector\\.nuget\\packages\\blazorise\\1.2.1\\blazorise.1.2.1.nupkg.sha512",
     "C:\\Users\\Hector\\.nuget\\packages\\blazorise.bootstrap\\1.2.1\\blazorise.bootstrap.1.2.1.nupkg.sha512",

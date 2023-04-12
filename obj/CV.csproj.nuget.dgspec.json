@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Hector\\source\\repos\\Nueva carpeta\\CV\\CV.csproj": {}
+    "C:\\Users\\Hector\\Source\\Repos\\CV\\CV.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Hector\\source\\repos\\Nueva carpeta\\CV\\CV.csproj": {
+    "C:\\Users\\Hector\\Source\\Repos\\CV\\CV.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Hector\\source\\repos\\Nueva carpeta\\CV\\CV.csproj",
+        "projectUniqueName": "C:\\Users\\Hector\\Source\\Repos\\CV\\CV.csproj",
         "projectName": "CV",
-        "projectPath": "C:\\Users\\Hector\\source\\repos\\Nueva carpeta\\CV\\CV.csproj",
+        "projectPath": "C:\\Users\\Hector\\Source\\Repos\\CV\\CV.csproj",
         "packagesPath": "C:\\Users\\Hector\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Hector\\source\\repos\\Nueva carpeta\\CV\\obj\\",
+        "outputPath": "C:\\Users\\Hector\\Source\\Repos\\CV\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
