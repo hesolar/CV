@@ -1,6 +1,3 @@
-
-<strong>working in progress ... </strong>
-
 This project is a representation of my personal curriculum.
 <br>
 This is an static web applicattion made in asp net core as blazor wasm proyect. <br>
