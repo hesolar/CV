@@ -2480,11 +2480,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Hector\\Source\\Repos\\CV\\CV.csproj",
+      "projectUniqueName": "C:\\Users\\Hector\\source\\repos\\CV\\CV.csproj",
       "projectName": "CV",
-      "projectPath": "C:\\Users\\Hector\\Source\\Repos\\CV\\CV.csproj",
+      "projectPath": "C:\\Users\\Hector\\source\\repos\\CV\\CV.csproj",
       "packagesPath": "C:\\Users\\Hector\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Hector\\Source\\Repos\\CV\\obj\\",
+      "outputPath": "C:\\Users\\Hector\\source\\repos\\CV\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -2562,7 +2562,7 @@
         "downloadDependencies": [
           {
             "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
-            "version": "[7.0.1, 7.0.1]"
+            "version": "[7.0.5, 7.0.5]"
           }
         ],
         "frameworkReferences": {
@@ -2570,7 +2570,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
       }
     },
     "runtimes": {

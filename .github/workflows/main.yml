@@ -21,8 +21,7 @@ jobs:
         #ls -S
 
     - name: Publish app
-      run: dotnet publish -c Release
-       
+      run: dotnet publish -c Release 
     - name: Rewrite base href 
       uses: SteveSandersonMS/ghaction-rewrite-base-href@v1
       with:
@@ -31,16 +30,27 @@ jobs:
     #- name: Print Directories Tree
       #run: |
         #ls -S
-    
-    - name: GitHub Pages
 
-    
-      if: success()
-      
-      
+    - name: Nojekyl file add
+      run: cat > .nojekyll 
+                 
+    - name: GitHub Pages
+      if: success()     
       uses: crazy-max/ghaction-github-pages@v1.5.1
       with:
         target_branch: gh-pages
         build_dir: ${{ env.PUBLISH_DIR }}
       env:
         GITHUB_TOKEN: ${{ env.GITHUB_TOKEN }}
+        
+    - name: Create file
+      run: |
+          git config --global user.name "bot"
+          git config --global user.email "hectorsolar99@gmail.com"
+          echo "" > .nojekyll
+          git add .nojekyll
+          git commit -m "Add example file"
+          git push origin gh-pages
+        
+
+  

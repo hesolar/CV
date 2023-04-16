@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "W7Z9N7MMTyi+c7tXyp3GPhp+d9fUsDtSXq3JBeGoK7ER4kByVOIGNDbj7lQ8KzU1wdGITlkEM7B1+u2lvZSApA==",
+  "dgSpecHash": "uJulbhnEgl+eae5jU5Rm0ckuEPBJp4Wvuz7i9kQa0Pw+QU0Icl0W5eChRHAXCnJnRKViPA4lMwsJAu0O+y3dXg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Hector\\Source\\Repos\\CV\\CV.csproj",
   "expectedPackageFiles": [
@@ -41,7 +41,7 @@
     "C:\\Users\\Hector\\.nuget\\packages\\system.linq.dynamic.core\\1.2.22\\system.linq.dynamic.core.1.2.22.nupkg.sha512",
     "C:\\Users\\Hector\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
     "C:\\Users\\Hector\\.nuget\\packages\\system.text.json\\7.0.0\\system.text.json.7.0.0.nupkg.sha512",
-    "C:\\Users\\Hector\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\7.0.1\\microsoft.netcore.app.runtime.mono.browser-wasm.7.0.1.nupkg.sha512"
+    "C:\\Users\\Hector\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\7.0.5\\microsoft.netcore.app.runtime.mono.browser-wasm.7.0.5.nupkg.sha512"
   ],
   "logs": []
 }
