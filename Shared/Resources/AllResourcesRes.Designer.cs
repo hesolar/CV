@@ -268,7 +268,7 @@ namespace CV.Shared.Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Desde pequeño he querido estudiar informática como forma de mejorar la vida de las personas y contribuir al progreso, aunque también tengo otras aficiones como la música,viajar, deportes o simplemente leer un buen libro o una serie😃.
+        ///   Busca una cadena traducida similar a Hola, soy Héctor! Tengo 24 años he estudiado Ingeniería Informática. Y desde pequeño siempre he tenido claro que queríadedicarme a la informática como forma de mejorar la vida de las personas y contribuir al progreso. La gente que me conoce también sabe que tengo otras afciones como la música,los juegos de mesa, viajar, practicar deport o simplemente leer un buen libro o una serie😃.
         /// </summary>
         public static string descripcionSobreMi2 {
             get {
