@@ -48,7 +48,7 @@ jobs:
           git config --global user.name "bot"
           git config --global user.email "hectorsolar99@gmail.com"
           echo "" > .nojekyll
-          git add .nojekyll
+          git add .nojekyll 
           git commit -m "Add example file"
           git push origin gh-pages
         
