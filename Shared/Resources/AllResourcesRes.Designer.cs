@@ -88,7 +88,7 @@ namespace CV.Shared.Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Desarrollo de proyecto de fin de grado en la empresa. Durante este periodo he desarrollado un microservicio para añadir funcionalidad a una aplicación existente automaticzando procesos relativos a la gestión de recursos humanos..
+        ///   Busca una cadena traducida similar a Desarrollo de proyecto de fin de grado en la empresa. Durante este periodo he desarrollado un microservicio para añadir funcionalidad a una aplicación existente automatizando procesos relativos a la gestión de recursos humanos..
         /// </summary>
         public static string contratoPracticasHiberus1Descripcion {
             get {
@@ -268,7 +268,7 @@ namespace CV.Shared.Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Hola, soy Héctor! Tengo 24 años he estudiado Ingeniería Informática. Y desde pequeño siempre he tenido claro que queríadedicarme a la informática como forma de mejorar la vida de las personas y contribuir al progreso. También tengo otras afciones como la música,los juegos de mesa, viajar, practicar deporte o simplemente leer un buen libro o una serie😃.
+        ///   Busca una cadena traducida similar a Hola, soy Héctor! Tengo 24 años he estudiado Ingeniería Informática. Y desde pequeño siempre he tenido claro que queríadedicarme a la informática como forma de mejorar la vida de las personas y contribuir al progreso. También tengo otras aficiones como la música,los juegos de mesa, viajar, practicar deporte o simplemente leer un buen libro o una serie😃.
         /// </summary>
         public static string descripcionSobreMi2 {
             get {
