@@ -1,7 +1,10 @@
 ﻿@using CV.Shared.Resources;
+@using static Microsoft.AspNetCore.Components.Web.RenderMode
+@rendermode InteractiveWebAssembly
+
 @inject IStringLocalizer<AllResourcesRes> AllResourcesResolver
 
-@page "/"
+@* @page "/" *@
 @page "/CV"
 
 
@@ -44,8 +47,8 @@
     </Tabs>
 </RadzenTabs>
 
-
-@*/*
+ 
+@* *
 <Carousel @bind-SelectedSlide=@selectedSlide Autoplay=false>
     <CarouselSlide Name="1">
         <Inicio />
@@ -59,7 +62,7 @@
         <Experiencia />
 
     </CarouselSlide>
-</Carousel> */*@
+</Carousel> */ *@
 @code {
     private string selectedSlide = "1";
 }
