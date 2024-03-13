@@ -285,10 +285,10 @@
   <data name="lenguagesProgramacion1" xml:space="preserve">
     <value>Lenguajes de Programación</value>
   </data>
-  <data name="meses" xml:space="preserve">
-    <value>meses</value>
+  <data name="mes" xml:space="preserve">
+    <value>mes</value>
   </data>
-  <data name="meses1" xml:space="preserve">
+  <data name="meses" xml:space="preserve">
     <value>meses</value>
   </data>
   <data name="metodologias" xml:space="preserve">
@@ -428,5 +428,11 @@
   </data>
   <data name="verificacionDocumentos1" xml:space="preserve">
     <value>Verificación de documentos electrónicos:</value>
+  </data>
+  <data name="year" xml:space="preserve">
+    <value>year</value>
+  </data>
+  <data name="years" xml:space="preserve">
+    <value>years</value>
   </data>
 </root>

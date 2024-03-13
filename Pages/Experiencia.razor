@@ -30,7 +30,35 @@
                     </li>
                 </p>
             </div>
-            <div class="flex-shrink-0"><span class="text-primary">jun. 2022 -@AllResourcesResolver["actualidad"] · @(((DateTime.Now.Year - 2022) * 12) + DateTime.Now.Month - 5) @AllResourcesResolver["meses"]</span></div>
+            <div class="flex-shrink-0"><span class="text-primary">jun. 2022 -@AllResourcesResolver["actualidad"] ·
+
+                    @{
+
+                        var datediff = ObtenerDiferenciaAniosMeses(new DateTime(2022, 5, 1), DateTime.Now);
+                    }
+                    @datediff.Item1
+                    @if (datediff.Item1 == 1)
+                    {
+                        @AllResourcesResolver["year"]
+                    }
+                    else
+                    {
+                        @AllResourcesResolver["years"]
+                    }
+
+                    @datediff.Item2
+                    @if (datediff.Item1 == 2)
+                    {
+                        @AllResourcesResolver["mes"]
+                    } else
+                    {
+                        @AllResourcesResolver["meses"]
+                    }
+
+
+
+
+                </span></div>
 
         </div>
 
@@ -73,3 +101,16 @@
     </div>
 </section>
 <hr class="m-0" />
+
+
+@code{
+     Tuple<int, int> ObtenerDiferenciaAniosMeses(DateTime fechaInicio, DateTime fechaFin)
+    {
+        int totalMeses = ((fechaFin.Year - fechaInicio.Year) * 12) + DateTime.Now.Month - fechaInicio.Month;
+        int anios = totalMeses / 12;
+        int meses = totalMeses % 12;
+
+        return Tuple.Create(anios, meses);
+    }
+
+}
