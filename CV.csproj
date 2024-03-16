@@ -32,11 +32,6 @@
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
     </Compile>
-    <Compile Update="Shared\Resources\PreloadingRes.Designer.cs">
-      <DependentUpon>PreloadingRes.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-      <AutoGen>True</AutoGen>
-    </Compile>
   </ItemGroup>
 
   <ItemGroup>
@@ -46,10 +41,6 @@
     </EmbeddedResource>
     <EmbeddedResource Update="Shared\Resources\IndexRes.resx">
       <LastGenOutput>IndexRes.Designer.cs</LastGenOutput>
-      <Generator>PublicResXFileCodeGenerator</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Update="Shared\Resources\PreloadingRes.resx">
-      <LastGenOutput>PreloadingRes.Designer.cs</LastGenOutput>
       <Generator>PublicResXFileCodeGenerator</Generator>
     </EmbeddedResource>
   </ItemGroup>

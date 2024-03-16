@@ -1,8 +1,11 @@
-﻿@using CV.Shared.Resources
+﻿@using CV.Pages
+@using CV.Shared
+@using CV.Shared.Resources
 @inherits LayoutComponentBase
-@inject IStringLocalizer<AllResourcesRes> AllResourcesResolver
 
 <main>
     <CV.Shared.NavMenu/>
+    <Header />
+
     @Body
 </main>

@@ -867,7 +867,6 @@ C:\Users\d074064\Desktop\Nueva carpeta (5)\CV\obj\Debug\net8.0\staticwebassets\m
 C:\Users\d074064\Desktop\Nueva carpeta (5)\CV\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.CV.props
 C:\Users\d074064\Desktop\Nueva carpeta (5)\CV\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.CV.props
 C:\Users\d074064\Desktop\Nueva carpeta (5)\CV\obj\Debug\net8.0\staticwebassets.pack.json
-C:\Users\d074064\Desktop\Nueva carpeta (5)\CV\obj\Debug\net8.0\scopedcss\Pages\Index.razor.rz.scp.css
 C:\Users\d074064\Desktop\Nueva carpeta (5)\CV\obj\Debug\net8.0\scopedcss\bundle\CV.styles.css
 C:\Users\d074064\Desktop\Nueva carpeta (5)\CV\obj\Debug\net8.0\scopedcss\projectbundle\CV.bundle.scp.css
 C:\Users\d074064\Desktop\Nueva carpeta (5)\CV\obj\Debug\net8.0\compressed\pa2u8l6hvs.gz
@@ -1089,3 +1088,5 @@ C:\Users\d074064\Desktop\Nueva carpeta (5)\CV\obj\Debug\net8.0\CV.dll
 C:\Users\d074064\Desktop\Nueva carpeta (5)\CV\obj\Debug\net8.0\refint\CV.dll
 C:\Users\d074064\Desktop\Nueva carpeta (5)\CV\obj\Debug\net8.0\CV.pdb
 C:\Users\d074064\Desktop\Nueva carpeta (5)\CV\obj\Debug\net8.0\ref\CV.dll
+C:\Users\d074064\Desktop\Nueva carpeta (5)\CV\obj\Debug\net8.0\scopedcss\Pages\Inicio.razor.rz.scp.css
+C:\Users\d074064\Desktop\Nueva carpeta (5)\CV\obj\Debug\net8.0\scopedcss\Shared\NavMenu.razor.rz.scp.css

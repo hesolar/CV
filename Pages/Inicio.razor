@@ -1,11 +1,19 @@
-﻿@page "/Inicio"
+﻿
+
+@rendermode InteractiveWebAssembly
+@using static Microsoft.AspNetCore.Components.Web.RenderMode
+@using CV.Shared.Resources;
+
+@page "/"
+@page "/Inicio"
 @page "/Index"
-@using CV.Shared.Resources;
-@inject IStringLocalizer<AllResourcesRes> AllResourcesResolver
+@page "/CV"
 
 
-@using CV.Shared.Resources;
+
 @inject IStringLocalizer<AllResourcesRes> AllResourcesResolver
+@inject IStringLocalizer<AllResourcesRes> AllResourcesResolver
+
 
 <section class="resume-section" id="inicio">
     <div class="resume-section-content">
