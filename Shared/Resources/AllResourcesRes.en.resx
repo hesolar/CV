@@ -123,6 +123,15 @@
   <data name="actualidad1" xml:space="preserve">
     <value>actualidad</value>
   </data>
+  <data name="Az204Descripcion" xml:space="preserve">
+    <value>Desarrollo de aplicaciones en la nube y gestión de infraestructura</value>
+  </data>
+  <data name="Az204Subtitulo" xml:space="preserve">
+    <value>Preparación para examen de Azure 204</value>
+  </data>
+  <data name="Az204Titulo" xml:space="preserve">
+    <value>Curso de preparación para Azure 204</value>
+  </data>
   <data name="contratoPracticasGnossDescripcion" xml:space="preserve">
     <value>Prácticas obligatorias en el grado.Desarrollo Web orientado a cliente(BBVA), proyecto D4R(Data for Reputation).</value>
   </data>
@@ -170,6 +179,15 @@
   </data>
   <data name="contratoPracticasHiberus2Subitulo1" xml:space="preserve">
     <value>HIBERUS · CONTRATO DE PRÁCTICAS</value>
+  </data>
+  <data name="CssHtmlMVPDescripcion" xml:space="preserve">
+    <value>Desarrollo y maquetación de páginas con html y css</value>
+  </data>
+  <data name="CssHtmlMVPSubtitulo" xml:space="preserve">
+    <value>Formación curso de desarrollo web</value>
+  </data>
+  <data name="CssHtmlMVPTitulo" xml:space="preserve">
+    <value>Html y CSS a fondo para desarrolladores</value>
   </data>
   <data name="cursosCertificaciones" xml:space="preserve">
     <value>Cursos y Certificaciones</value>
@@ -416,6 +434,9 @@
   </data>
   <data name="tituloProgramacionNET1" xml:space="preserve">
     <value>Programación .NET</value>
+  </data>
+  <data name="tituloReact" xml:space="preserve">
+    <value>React Course</value>
   </data>
   <data name="verificacionCertificados" xml:space="preserve">
     <value>Verificación de certificados:</value>

@@ -120,6 +120,15 @@
   <data name="actualidad" xml:space="preserve">
     <value>actualidad</value>
   </data>
+  <data name="Az204Descripcion" xml:space="preserve">
+    <value>Desarrollo de aplicaciones en la nube y gestión de infraestructura</value>
+  </data>
+  <data name="Az204Subtitulo" xml:space="preserve">
+    <value>Preparación para examen de Azure 204</value>
+  </data>
+  <data name="Az204Titulo" xml:space="preserve">
+    <value>Formacion en Azure 204</value>
+  </data>
   <data name="contratoPracticasGnossDescripcion" xml:space="preserve">
     <value>Prácticas obligatorias en el grado.Desarrollo Web orientado a cliente(BBVA), proyecto D4R(Data for Reputation).</value>
   </data>
@@ -143,6 +152,15 @@
   </data>
   <data name="contratoPracticasHiberus2Subitulo" xml:space="preserve">
     <value>HIBERUS · CONTRATO DE PRÁCTICAS</value>
+  </data>
+  <data name="CssHtmlMVPDescripcion" xml:space="preserve">
+    <value>Desarrollo y maquetación de páginas con html y css</value>
+  </data>
+  <data name="CssHtmlMVPSubtitulo" xml:space="preserve">
+    <value>Formación curso de desarrollo web</value>
+  </data>
+  <data name="CssHtmlMVPTitulo" xml:space="preserve">
+    <value>Html y CSS a fondo para desarrolladores</value>
   </data>
   <data name="cursosCertificaciones" xml:space="preserve">
     <value>Cursos y Certificaciones</value>
@@ -232,16 +250,16 @@
     <value>Mi trabajo en gobierno de Navarra se puede dividir en dos áreas: GAD y Vivienda.</value>
   </data>
   <data name="programadorWebJuniorHiberusDescripcion2" xml:space="preserve">
-    <value>El equipo GAD (Grupo de Arquitectura de Desarrollo) es un equipo transversal cuya función principal es apoyar a los desarrolladores en aspectos relacionados con el desarrollo e integración de sus productos en el proceso de CI/CD. He podido colaborar con el proceso de CI/CD dentro de la organización a través de Jenkins, y mejorar la calidad del código a través de procesos de QA automatizados con SonarQube, además de investigar y proponer nuevas tecnologías que ayuden a la organización con las necesidades que van surgiendo.</value>
+    <value>El equipo GAD (Grupo de Arquitectura de Desarrollo) es un equipo transversal cuya función principal es apoyar a los desarrolladores en aspectos relacionados con el desarrollo e integración de sus productos en el proceso de CI/CD. He podido colaborar con el proceso de CI/CD dentro de la organización a través de herramientas como Jenkins,o implementar análisis de código estático automatizados con SonarQube, además de investigar y proponer nuevas tecnologías que ayuden a la organización con las necesidades que van surgiendo.</value>
   </data>
   <data name="programadorWebJuniorHiberusDescripcion3" xml:space="preserve">
-    <value>En el área de vivienda, mis funciones son realizar trabajos de mantenimiento y mejora de los diferentes productos de esta área, utilizando principalmente la metodología SCRUM. Los productos elaborados se desarrollan principalmente con tecnologías .NET Framework (principalmente WebForms)</value>
+    <value>En el área de vivienda, mis funciones son realizar trabajos de mantenimiento y mejora de los diferentes productos de esta área. Los productos elaborados que se mantienen principalmente con tecnologías .NET Framework (principalmente WebForms)</value>
   </data>
   <data name="programadorWebJuniorHiberusSubTitulo" xml:space="preserve">
-    <value>PROGRAMADOR WEB JUNIOR PARA GOBIERNO DE NAVARRA</value>
+    <value>PROGRAMADOR WEB PARA GOBIERNO DE NAVARRA</value>
   </data>
   <data name="programadorWebJuniorHiberusTitulo" xml:space="preserve">
-    <value>PROGRAMADOR WEB JUNIOR</value>
+    <value>PROGRAMADOR WEB</value>
   </data>
   <data name="subtituloPersonal" xml:space="preserve">
     <value>Graduado en la Universidad de la Rioja en Ingeniería informática y mención en ingeniería de Software.</value>
@@ -269,6 +287,9 @@
   </data>
   <data name="tituloProgramacionNET" xml:space="preserve">
     <value>Programación .NET</value>
+  </data>
+  <data name="tituloReact" xml:space="preserve">
+    <value>Curso de React</value>
   </data>
   <data name="verificacionCertificados" xml:space="preserve">
     <value>Verificación de certificados:</value>

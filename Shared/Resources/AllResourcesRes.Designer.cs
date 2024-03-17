@@ -70,6 +70,33 @@ namespace CV.Shared.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Desarrollo de aplicaciones en la nube y gestión de infraestructura.
+        /// </summary>
+        public static string Az204Descripcion {
+            get {
+                return ResourceManager.GetString("Az204Descripcion", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Preparación para examen de Azure 204.
+        /// </summary>
+        public static string Az204Subtitulo {
+            get {
+                return ResourceManager.GetString("Az204Subtitulo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Formacion en Azure 204.
+        /// </summary>
+        public static string Az204Titulo {
+            get {
+                return ResourceManager.GetString("Az204Titulo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Prácticas obligatorias en el grado.Desarrollo Web orientado a cliente(BBVA), proyecto D4R(Data for Reputation)..
         /// </summary>
         public static string contratoPracticasGnossDescripcion {
@@ -138,6 +165,33 @@ namespace CV.Shared.Resources {
         public static string contratoPracticasHiberus2Subitulo {
             get {
                 return ResourceManager.GetString("contratoPracticasHiberus2Subitulo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Desarrollo y maquetación de páginas con html y css.
+        /// </summary>
+        public static string CssHtmlMVPDescripcion {
+            get {
+                return ResourceManager.GetString("CssHtmlMVPDescripcion", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Formación curso de desarrollo web.
+        /// </summary>
+        public static string CssHtmlMVPSubtitulo {
+            get {
+                return ResourceManager.GetString("CssHtmlMVPSubtitulo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Html y CSS a fondo para desarrolladores.
+        /// </summary>
+        public static string CssHtmlMVPTitulo {
+            get {
+                return ResourceManager.GetString("CssHtmlMVPTitulo", resourceCulture);
             }
         }
         
@@ -403,7 +457,7 @@ namespace CV.Shared.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to El equipo GAD (Grupo de Arquitectura de Desarrollo) es un equipo transversal cuya función principal es apoyar a los desarrolladores en aspectos relacionados con el desarrollo e integración de sus productos en el proceso de CI/CD. He podido colaborar con el proceso de CI/CD dentro de la organización a través de Jenkins, y mejorar la calidad del código a través de procesos de QA automatizados con SonarQube, además de investigar y proponer nuevas tecnologías que ayuden a la organización con las necesidades que [rest of string was truncated]&quot;;.
+        ///   Looks up a localized string similar to El equipo GAD (Grupo de Arquitectura de Desarrollo) es un equipo transversal cuya función principal es apoyar a los desarrolladores en aspectos relacionados con el desarrollo e integración de sus productos en el proceso de CI/CD. He podido colaborar con el proceso de CI/CD dentro de la organización a través de herramientas como Jenkins,o implementar análisis de código estático automatizados con SonarQube, además de investigar y proponer nuevas tecnologías que ayuden a la organización con las necesidades que [rest of string was truncated]&quot;;.
         /// </summary>
         public static string programadorWebJuniorHiberusDescripcion2 {
             get {
@@ -412,7 +466,7 @@ namespace CV.Shared.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to En el área de vivienda, mis funciones son realizar trabajos de mantenimiento y mejora de los diferentes productos de esta área, utilizando principalmente la metodología SCRUM. Los productos elaborados se desarrollan principalmente con tecnologías .NET Framework (principalmente WebForms).
+        ///   Looks up a localized string similar to En el área de vivienda, mis funciones son realizar trabajos de mantenimiento y mejora de los diferentes productos de esta área. Los productos elaborados que se mantienen principalmente con tecnologías .NET Framework (principalmente WebForms).
         /// </summary>
         public static string programadorWebJuniorHiberusDescripcion3 {
             get {
@@ -421,7 +475,7 @@ namespace CV.Shared.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to PROGRAMADOR WEB JUNIOR PARA GOBIERNO DE NAVARRA.
+        ///   Looks up a localized string similar to PROGRAMADOR WEB PARA GOBIERNO DE NAVARRA.
         /// </summary>
         public static string programadorWebJuniorHiberusSubTitulo {
             get {
@@ -430,7 +484,7 @@ namespace CV.Shared.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to PROGRAMADOR WEB JUNIOR.
+        ///   Looks up a localized string similar to PROGRAMADOR WEB.
         /// </summary>
         public static string programadorWebJuniorHiberusTitulo {
             get {
@@ -516,6 +570,15 @@ namespace CV.Shared.Resources {
         public static string tituloProgramacionNET {
             get {
                 return ResourceManager.GetString("tituloProgramacionNET", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Curso de React.
+        /// </summary>
+        public static string tituloReact {
+            get {
+                return ResourceManager.GetString("tituloReact", resourceCulture);
             }
         }
         

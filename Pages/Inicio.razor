@@ -3,6 +3,7 @@
 @rendermode InteractiveWebAssembly
 @using static Microsoft.AspNetCore.Components.Web.RenderMode
 @using CV.Shared.Resources;
+@using Microsoft.Extensions.Localization
 
 @page "/"
 @page "/Inicio"
@@ -11,7 +12,6 @@
 
 
 
-@inject IStringLocalizer<AllResourcesRes> AllResourcesResolver
 @inject IStringLocalizer<AllResourcesRes> AllResourcesResolver
 
 
@@ -41,7 +41,7 @@
                 </div>
                 <div class="col-sm" style="width:25%">
                     <span class="d-none d-lg-block">
-                        <img class="img-fluid img-profile" style="border:none;max-width: 100%; height: auto;max-width:60%;margin-left: 25%;margin-top:-25%;" src="assets/img/profile.jpg" alt="..." />
+                        <img class="img-fluid img-profile" style="border:none;max-width: 100%; height: auto;max-width:60%;margin-left: 25%;margin-top:-5%;" src="assets/img/profile.jpg" alt="..." />
                     </span>
 
                 </div>
