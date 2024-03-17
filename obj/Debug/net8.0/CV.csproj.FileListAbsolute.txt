@@ -643,11 +643,9 @@ C:\Users\d074064\Desktop\Nueva carpeta (5)\CV\obj\Debug\net8.0\CV.csproj.Assembl
 C:\Users\d074064\Desktop\Nueva carpeta (5)\CV\obj\Debug\net8.0\CV.Shared.Resources.AllResourcesRes.resources
 C:\Users\d074064\Desktop\Nueva carpeta (5)\CV\obj\Debug\net8.0\CV.Shared.Resources.IndexRes.resources
 C:\Users\d074064\Desktop\Nueva carpeta (5)\CV\obj\Debug\net8.0\CV.Shared.Resources.NavMenuRes.resources
-C:\Users\d074064\Desktop\Nueva carpeta (5)\CV\obj\Debug\net8.0\CV.Shared.Resources.PreloadingRes.resources
 C:\Users\d074064\Desktop\Nueva carpeta (5)\CV\obj\Debug\net8.0\CV.Shared.Resources.AllResourcesRes.en.resources
 C:\Users\d074064\Desktop\Nueva carpeta (5)\CV\obj\Debug\net8.0\CV.Shared.Resources.IndexRes.en.resources
 C:\Users\d074064\Desktop\Nueva carpeta (5)\CV\obj\Debug\net8.0\CV.Shared.Resources.NavMenuRes.en.resources
-C:\Users\d074064\Desktop\Nueva carpeta (5)\CV\obj\Debug\net8.0\CV.Shared.Resources.PreloadingRes.en.resources
 C:\Users\d074064\Desktop\Nueva carpeta (5)\CV\obj\Debug\net8.0\CV.csproj.GenerateResource.cache
 C:\Users\d074064\Desktop\Nueva carpeta (5)\CV\obj\Debug\net8.0\CV.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\d074064\Desktop\Nueva carpeta (5)\CV\obj\Debug\net8.0\CV.AssemblyInfoInputs.cache

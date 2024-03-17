@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "kC33Ze1aK+kC7VtWFVYIx63+6Uc0x8tSyBMOgtgNEVI=",
+  "Hash": "eyaETbRihoKqdsnODMNtarDWaOpNVHs1+YffwSHbbG0=",
   "Source": "CV",
   "BasePath": "/",
   "Mode": "Root",
@@ -10465,6 +10465,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\img\\personales\\d.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\d074064\\Desktop\\Nueva carpeta (5)\\CV\\wwwroot\\assets\\img\\personales\\e.jpeg",
+      "SourceId": "CV",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\d074064\\Desktop\\Nueva carpeta (5)\\CV\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "assets/img/personales/e.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\personales\\e.jpeg"
     },
     {
       "Identity": "C:\\Users\\d074064\\Desktop\\Nueva carpeta (5)\\CV\\wwwroot\\assets\\img\\profile.jpg",
