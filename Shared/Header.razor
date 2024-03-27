@@ -2,7 +2,7 @@
 @inject IStringLocalizer<AllResourcesRes> AllResourcesResolver
 @inject NavigationManager nav
 
-<RadzenTabs RenderMode="TabRenderMode.Client" Style="background-image:conic-gradient()">
+<RadzenTabs Style="background-image:conic-gradient()">
     <Tabs>
         <RadzenTabsItem Text="@AllResourcesResolver["navbar_inicio"]" @onclick=@(()=> nav.NavigateTo(AllResourcesResolver["navbar_inicio"])) />
         <RadzenTabsItem Text="@AllResourcesResolver["navbar_intereses"]" @onclick=@(()=> nav.NavigateTo(AllResourcesResolver["navbar_intereses"])) />
@@ -12,3 +12,6 @@
         <RadzenTabsItem Text="@AllResourcesResolver["navbar_cursos"]" @onclick=@(()=> nav.NavigateTo(AllResourcesResolver["navbar_cursos"])) />
     </Tabs>
 </RadzenTabs>
+
+
+

@@ -213,6 +213,24 @@
   <data name="descripcionUniversidad" xml:space="preserve">
     <value>GRADO EN INGENIERÍA INFORMÁTICA E INGENIERÍA DE SOFTWARE</value>
   </data>
+  <data name="DockerCertificatedAsociated" xml:space="preserve">
+    <value>Formación en contenedores docker</value>
+  </data>
+  <data name="DockerCertificatedAsociatedDescription" xml:space="preserve">
+    <value>Curso de trabajo de contenedores en docker y orquestación </value>
+  </data>
+  <data name="DockerCertificatedAsociatedSubtitulo" xml:space="preserve">
+    <value>Formación en contendores docker</value>
+  </data>
+  <data name="EntityFrameworkDeVerdadDescription" xml:space="preserve">
+    <value>Formación de entity framework, modelado de datos a través del framework orm de .net</value>
+  </data>
+  <data name="EntityFrameworkDeVerdadSubtitle" xml:space="preserve">
+    <value>Formación de EF Core</value>
+  </data>
+  <data name="EntityFrameworkDeVerdadTitle" xml:space="preserve">
+    <value>Curso Entity Framework Core </value>
+  </data>
   <data name="idCredencial" xml:space="preserve">
     <value>ID de la credencial:</value>
   </data>
